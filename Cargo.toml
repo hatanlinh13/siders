@@ -2,8 +2,21 @@
 name = "siders"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.85.0"
+
+description = "A simple Redis client and server"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/hatanlinh13/siders"
+
 
 [dependencies]
 bytes = "1"
 mini-redis = "0.4"
 tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "client"
+
+[[bin]]
+name = "server"
