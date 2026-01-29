@@ -15,6 +15,7 @@ bytes = "1"
 futures = "0.3.31"
 mini-redis = "0.4"
 tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1.18"
 
 [[bin]]
 name = "client"
