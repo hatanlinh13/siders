@@ -3,11 +3,12 @@ name = "siders"
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.85.0"
+authors = ["Linh Ha <linh@fseek.net>"]
 
 description = "A simple Redis client and server"
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/hatanlinh13/siders"
+repository = "https://github.com/hatanlinh/siders"
 
 
 [dependencies]
